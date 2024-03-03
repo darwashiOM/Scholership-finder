@@ -252,7 +252,7 @@ def filter_org(person: Person, scholarships: [Scholarship]) -> [Scholarship]:
             elif scholarship.organization.lower() == organ:
                 listsch.append(scholarship)
     return listsch
-
+#
 def filter_level(person: Person, scholarships: [Scholarship]) -> [Scholarship]:
     listsch = []
     if person.Level == "":
